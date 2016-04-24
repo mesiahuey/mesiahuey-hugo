@@ -1,0 +1,7 @@
+theme = "mesiahuey"
+baseurl = "http://mesiahuey.com"
+languageCode = "en-us"
+title = "Mesia Huey"
+layoutdir = "layouts"
+contentdir = "content"
+canonifyurls = true
