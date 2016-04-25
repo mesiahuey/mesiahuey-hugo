@@ -8,10 +8,9 @@
 <a id="large_leaf" class="leaf_button" href="/contact"></a>
 
 <table id = "portfolio_table">
-	{{ $c := 0 }}
-	{{ range .Data.Pages }}
-		{{ if (eq (mod $c 3) 0 ) }}
-			{{ if (ne $c 0) }}
+	{{ range $index, $element := .Data.Pages }}
+		{{ if (eq (mod $index 3) 0 ) }}
+			{{ if (ne $index 0) }}
 				</tr>
 			{{ end }}
 			<tr>			
@@ -23,7 +22,6 @@
 				{{ .Title }}
 			</a>
 		</td>
-		{{ $c := add $c 1 }}
 	{{ end }}
 </table>
 
