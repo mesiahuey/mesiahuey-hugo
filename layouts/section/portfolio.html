@@ -1,0 +1,30 @@
+{{ partial "header.html" . }}
+<link rel="stylesheet" type="text/css" href="/css/portfolio.css">
+
+<div class="page_title">portfolio</div>
+<a id="small_leaf" class="leaf_button" href="/"></a>
+<a id="tiny_leaf" class="leaf_button" href="/bio"></a>
+<a id="medium_leaf" class="leaf_button" href="/links"></a>
+<a id="large_leaf" class="leaf_button" href="/contact"></a>
+
+<table id = "portfolio_table">
+	{{ $c := 0 }}
+	{{ range .Data.Pages }}
+		{{ if (eq (mod $c 3) 0 ) }}
+			{{ if (ne $c 0) }}
+				</tr>
+			{{ end }}
+			<tr>			
+		{{ end }}
+		<td>
+			<a href="{{ .Permalink }}">
+				<img src="{{ .Params.cover }}" width="150" />
+				<br />
+				{{ .Title }}
+			</a>
+		</td>
+		{{ $c := add $c 1 }}
+	{{ end }}
+</table>
+
+{{ partial "footer.html" . }}
