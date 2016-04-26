@@ -77,7 +77,9 @@ The following is a description of each one, what to set it to, and how it's used
 - `cover`: The cover image for the portfolio. This is the image that is used on the
 	main portfolio page.
 - `images`: The list of images in the portfolio. This list is used to create the 
-	scrollable list of images a user can cycle through. (See /layouts/portfolio/single.html)
+	scrollable list of images a user can cycle through. (See /layouts/portfolio/single.html).
+	The order these are in determines the order they appear in the scroll. The second one 
+	will start out as the large image.
 
 ## Testing Changes
 After making changes, do the following to check them out:
