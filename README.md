@@ -77,11 +77,13 @@ The following is a description of each one, what to set it to, and how it's used
 
 ## Testing Changes
 After making changes, do the following to check them out:
+
 1. Run `hugo serve`
 1. Go to `http://localhost:1313` in your browser
 
 ## Deploying Changes
 When you're all done making changes, do the following:
+
 1. Commit and push all your changes:
 	1. `git add .`
 	1. `git commit -am "YOUR COMMIT MESSAGE HERE"`
