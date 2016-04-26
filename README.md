@@ -42,6 +42,7 @@ This is the main repo for mesiahuey.com. It holds all of the files necessary for
 ## Adding A Portfolio
 The following are the steps to add a new portfolio. Replace `PORTFOLIO_NAME` with 
 the name of the new portfolio.
+
 1. Create a new folder: `/static/images/portfolios/PORTFOLIO_NAME`
 1. Create a new file in content/portfolio by running `hugo create PORTFOLIO_NAME.html`
 1. Fill out the variables described in [Portfolio Variables](#portfolio-variables)
