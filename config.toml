@@ -1,5 +1,5 @@
 theme = "mesiahuey"
-baseurl = "http://mesiahuey.com"
+baseurl = "http://mesiahuey.github.io"
 languageCode = "en-us"
 title = "Mesia Huey"
 layoutdir = "layouts"
