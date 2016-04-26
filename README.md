@@ -1,3 +1,6 @@
+## About
+This is the main repo for mesiahuey.com. It holds all of the files necessary for hugo to generate mesiahuey.com.
+
 ## Installation
 1. Clone down this repo
 1. `cd` into the directory and run `chmod +x ./deploy.sh`
